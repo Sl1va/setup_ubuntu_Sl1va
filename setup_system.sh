@@ -9,6 +9,7 @@ echo 'y ' | sudo snap  install code --classic
 echo 'y'  | sudo snap install goland --classic
 echo 'y'  | sudo apt install gcc
 echo 'y'  | sudo apt install g++
+echo 'y'  | sudo apt install golang
 
 # create workspaces
 mkdir -p ~/lang/C ~/lang/C++ ~/lang/Python
